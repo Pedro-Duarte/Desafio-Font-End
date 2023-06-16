@@ -1,0 +1,38 @@
+/*Base*/
+
+:root {
+  --azul: #2A7AE4;
+  --azul-claro-bg: #EAF2FD;
+  --cinza-claro-bg: #EDEDED;
+  --branco: #FFFFFF;
+  --cor-fonte-geral: #464646;
+  --fonte-campos-formulario: #A2A2A2;
+  --Raleway: 'Raleway', sans-serif;
+
+}
+
+body {
+  font-family: var(--Raleway);
+}
+
+header {
+  background-color: var(--cinza-claro-bg);
+}
+
+/*Cabecalho*/
+
+.cabecalho__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 88px;
+  width: calc(100% - 304px);
+  margin-bottom: 32px;
+  margin-left: 152px;
+  margin-right: 152px;
+}
+
+.cabecalho__link {
+  display:inline-block;
+  justify-content:space-around;
+}
