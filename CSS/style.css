@@ -1,4 +1,4 @@
-/*Base*/
+/*-----------------Base-------------------*/
 
 :root {
   --azul: #2A7AE4;
@@ -17,22 +17,85 @@ body {
 
 header {
   background-color: var(--cinza-claro-bg);
+  height: 520px;
+  color:var(--cor-fonte-geral)
 }
 
-/*Cabecalho*/
+/*-----------------Cabecalho---------------*/
 
 .cabecalho__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   height: 88px;
-  width: calc(100% - 304px);
   margin-bottom: 32px;
-  margin-left: 152px;
+}
+
+.ul-link {
+  display: flex;
+  justify-content: space-between;
   margin-right: 152px;
 }
 
 .cabecalho__link {
-  display:inline-block;
-  justify-content:space-around;
+  margin-right: 32px;
+  font-weight: 500;
 }
+
+.cabecalho__link-contato {
+  font-weight: 700;
+}
+
+.nome {
+  margin-left: 152px;
+  font-weight: 700;
+}
+
+/*----------------Apresentação-------------*/
+
+.apresentacao__container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  max-width: 751px;
+  margin-left: 152px;
+  margin-right: 17px;
+  margin-top: 61px;
+  margin-bottom: 61px;
+}
+
+.imagem__apresentacao {
+  border-radius: 400px 400px 400px 400px;
+  max-width: 368px;
+  max-height: 368px;
+  margin-right: 152px;
+}
+
+.saudacao__informacoes {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 47.05px;
+  max-height: 122px;
+}
+
+.texto__informacoes {
+  line-height: 25.83px;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.ul-link-informacoes {
+  display: flex;
+  justify-content: space-between;
+  max-width: 467px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
