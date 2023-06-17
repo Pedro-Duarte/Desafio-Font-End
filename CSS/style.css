@@ -99,3 +99,37 @@ header {
   font-weight: 500;
 }
 
+/*------------------Sobre Mim-----------------*/
+
+.secao__sobre-mim {
+  background-color: var(--azul-claro-bg);
+  height: 383px;
+}
+
+.div__sobre-mim {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  height: 255px;
+  padding: 64px 152px 64px 152px;
+}
+
+.sobre__mim {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+}
+
+.texto__sobre-mim {
+  line-height: 20.83px;
+  width: 751px;
+  height: 133px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: justify;
+  font-weight: 400;
+}
+
+.assinatura {
+  height: 52px;
+}
