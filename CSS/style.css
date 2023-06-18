@@ -13,6 +13,7 @@
 
 body {
   font-family: var(--Raleway);
+  color: var(--cor-fonte-geral)
 }
 
 header {
@@ -114,7 +115,7 @@ header {
   padding: 64px 152px 64px 152px;
 }
 
-.sobre__mim {
+.sobre__mim-titulo {
   font-size: 32px;
   font-weight: 700;
   line-height: 37.57px;
@@ -131,5 +132,120 @@ header {
 }
 
 .assinatura {
-  height: 52px;
+  transform: rotate(270deg);
+  height: 220px;
+  width: 80px;
+  padding-right: 252px;
+  padding-left: 40px;
+  padding-bottom: 200px;
+  position: absolute;
+}
+
+/*------------------Skills----------------------*/
+
+.secao__skills {
+  height: 696px;
+  background-color: var(--cinza-claro-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lista__skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 32px;
+  margin-left: 152px;
+  margin-right: 152px;
+}
+
+.titulo__skills {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+}
+
+.skills__itens-lista {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 88px;
+}
+
+.lista__skills:nth-child(n) li {
+  margin-right: 16px;
+}
+
+.lista__skills li:last-child {
+  margin-right: 0;
+}
+
+/*------------------Hobbies----------------------*/
+
+.cartao {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--branco);
+  max-width: 176px;
+  width: 100%;
+  max-height: 174px;
+  height: 100%;
+}
+
+.item__hobbies {
+  width: 176px;
+  height: 174px;
+}
+
+.lista__hobbies {
+  margin-top: 32px;
+  height: 244px;  
+  margin-left: 152px;
+  margin-right: 152px;
+}
+
+.titulo__hobbies {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+}
+
+.hobbies__itens-lista {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 88px;
+  height: 174px;
+}
+
+.lista__hobbies :nth-child(n) li {
+  margin-right: 16px;
+}
+
+.lista__hobbies li:last-child {
+  margin-right: 0;
+}
+
+.cartao_hobbie-conteudo {
+  display: flex;
+  flex-direction: column;
+  height: 174px;
+}
+
+.texto__hobbie {
+  padding-left: 16px;
+  padding-bottom: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+}
+
+.imagem__hobbie {
+  width: 32px;
+  height: 32px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  padding-top: 76px;
 }
