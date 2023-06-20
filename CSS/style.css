@@ -126,7 +126,7 @@ header {
   width: 751px;
   height: 133px;
   padding-top: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 50px;
   text-align: justify;
   font-weight: 400;
 }
@@ -135,9 +135,9 @@ header {
   transform: rotate(270deg);
   height: 220px;
   width: 80px;
-  padding-right: 252px;
+  padding-right: 260px;
   padding-left: 40px;
-  padding-bottom: 200px;
+  padding-bottom: 260px;
   position: absolute;
 }
 
@@ -248,4 +248,107 @@ header {
   padding-left: 16px;
   padding-bottom: 16px;
   padding-top: 76px;
+}
+
+/*------------------Formação-Acadêmica----------------------*/
+
+.secao__formacao-academica {
+  background-color: var(--azul-claro-bg);
+  height: 581px;
+}
+
+.titulo__formacao {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: center;
+  padding-top: 82px;
+}
+
+.lista__formacao-academica {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-left: 152px;
+  margin-right: 152px;
+}
+
+.item__formacao-academica {
+  margin-right: 16px;
+} 
+
+.secao__formacao-academica li:last-child {
+  margin-right: 0px;
+}
+
+.imagem__formacao-bg {
+  width: 368px;
+  height: 286px;
+}
+
+.item-bloco1 {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.icone__alura {
+  position: absolute;
+}
+
+.item-bloco2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.texto-formacao {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 25.83px;
+  padding-top: 8px;
+}
+
+.texto-ano-formacao {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  padding-top: 8px;
+}
+
+.bloco-botao-certificado {
+  display: flex;
+  justify-content: end;
+  align-items:center;
+  width: 360px;
+  padding-top: 8px;
+  padding-right: 8px;
+  position: absolute;
+}
+
+.botao-certificado {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  width: 105px;
+  height: 51px;
+  background-color: var(--azul);
+}
+
+.texto-botao-certificado {
+  font-family: Raleway;
+  color: var(--branco);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/*------------------Experiência Profissional----------------------*/
+
+.secao__experiencia-profissional {
+  height: 581px;
+  background-color: var(--cinza-claro-bg);
 }
