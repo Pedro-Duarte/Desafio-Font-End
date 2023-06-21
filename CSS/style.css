@@ -17,9 +17,12 @@ body {
 }
 
 header {
-  background-color: var(--cinza-claro-bg);
+  /* background-color: var(--cinza-claro-bg); */
   height: 520px;
-  color:var(--cor-fonte-geral)
+  color:var(--cor-fonte-geral);
+  background: url("D:/Pedro/One Alura/Desafio Front End/Imagem/banner.jpg");
+  background-position: center top;
+  color: var(--branco);
 }
 
 /*-----------------Cabecalho---------------*/
@@ -42,10 +45,16 @@ header {
 .cabecalho__link {
   margin-right: 32px;
   font-weight: 500;
+  padding: 8px;
+  background-color: #ffffff80;
+  border-radius: 5px;
 }
 
 .cabecalho__link-contato {
   font-weight: 700;
+  padding: 8px;
+  background-color: #00000080;
+  border-radius: 5px;
 }
 
 .nome {
@@ -58,38 +67,40 @@ header {
 .apresentacao__container {
   display: flex;
   flex-direction: row-reverse;
-}
-
-.informacoes {
-  display: flex;
-  flex-direction: column;
-  justify-content:space-between;
-  max-width: 751px;
-  margin-left: 152px;
-  margin-right: 17px;
-  margin-top: 61px;
-  margin-bottom: 61px;
+  justify-content: space-between;
+  justify-content: center;
 }
 
 .imagem__apresentacao {
   border-radius: 400px 400px 400px 400px;
   max-width: 368px;
   max-height: 368px;
-  margin-right: 152px;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  width: 600px;
+  margin-right: 70px;
+  padding: 8px;
+  color: var(--cor-fonte-geral);
+  background-color: #ffffff99;
+  border-radius: 5px;
 }
 
 .saudacao__informacoes {
   font-size: 44px;
   font-weight: 700;
   line-height: 47.05px;
-  max-height: 122px;
 }
 
 .texto__informacoes {
   line-height: 25.83px;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: justify;
+  padding-top: 8px;
 }
 
 .ul-link-informacoes {
@@ -97,7 +108,8 @@ header {
   justify-content: space-between;
   max-width: 467px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
+  padding-top: 16px;
 }
 
 /*------------------Sobre Mim-----------------*/
@@ -348,7 +360,185 @@ header {
 
 /*------------------Experiência Profissional----------------------*/
 
+.titulo-secao-experiencia {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 32px;
+}
+
 .secao__experiencia-profissional {
   height: 581px;
   background-color: var(--cinza-claro-bg);
+}
+
+.imagem-experiencia-profissional {
+  width: 772px;
+  height: 426px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.experiencia1 {
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  padding-top: 32px;
+  gap: 16px;
+  height: 406px;
+  margin-right: 152px;
+  margin-left: 152px;
+}
+
+.botoes-experiencia-profissional {
+  display: flex;
+  flex-direction:row;
+  gap: 8px;
+  width: 250px;
+  height: 51px;
+  padding-top: 8px;
+}
+
+.bloco-botao-repositorio {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 116px;
+  height: 51px;
+  border: 1px solid #2A7AE4;
+}
+
+.bloco-botao-ver-demo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 105px;
+  height: 51px;
+  background: #2A7AE4;
+}
+
+.titulo-texto1-experiencia {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+
+.texto1-experiencia {
+  text-align: justify;
+  padding-top: 8px;
+  line-height: 20.83px;
+}
+
+.texto2-experiencia {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  padding-top: 8px;
+}
+
+.texto3-experiencia {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: left;
+  padding-top: 8px;
+}
+
+/*------------------Contato----------------------*/
+
+.secao-contato {
+  display: flex;
+  align-items: center;
+  background-color: var(--azul-claro-bg);
+  height: 788px;
+}
+
+.div-contato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 660px;
+  max-width: 1136px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.imagem-contato {
+  height: 593px;
+  width: 464px;
+}
+
+.parte-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  height: 596px;
+  max-width : 656px;
+}
+
+.titulo-formulario {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  text-align: left;
+}
+
+.texto-formulario {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.78px;
+  text-align: left;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 656px;
+  height: 397px;
+}
+
+.campo-nome {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 656px;
+  height: 56px;
+}
+
+.campo-email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 656px;
+  height: 56px;
+}
+
+.campo-assunto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 656px;
+  height: 56px;
+}
+
+.campo-mensagem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 656px;
+  height: 133px;
 }
