@@ -13,7 +13,8 @@
 
 body {
   font-family: var(--Raleway);
-  color: var(--cor-fonte-geral)
+  color: var(--cor-fonte-geral);
+  max-width: 1440px;
 }
 
 header {
@@ -454,18 +455,19 @@ header {
 /*------------------Contato----------------------*/
 
 .secao-contato {
-  display: flex;
-  align-items: center;
+  display:flex;
+  justify-content: space-around;
   background-color: var(--azul-claro-bg);
   height: 788px;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .div-contato {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 660px;
   max-width: 1136px;
+  width: 100%;
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -473,14 +475,15 @@ header {
 .imagem-contato {
   height: 593px;
   width: 464px;
+  padding-right: 16px;
 }
 
 .parte-formulario {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items:flex-start;
   height: 596px;
+  width: 100%;
   max-width : 656px;
 }
 
@@ -489,6 +492,7 @@ header {
   font-weight: 700;
   line-height: 37.57px;
   text-align: left;
+  margin-bottom: 8px;
 }
 
 .texto-formulario {
@@ -505,27 +509,10 @@ header {
   gap: 32px;
   width: 656px;
   height: 397px;
+  padding-top: 32px;
 }
 
-.campo-nome {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  width: 656px;
-  height: 56px;
-}
-
-.campo-email {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  width: 656px;
-  height: 56px;
-}
-
-.campo-assunto {
+.campo-nome .campo-email .campo-assunto {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
