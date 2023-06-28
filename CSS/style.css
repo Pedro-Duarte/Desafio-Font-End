@@ -476,6 +476,7 @@ header {
   height: 593px;
   width: 464px;
   padding-right: 16px;
+  padding-top: 64px;
 }
 
 .parte-formulario {
@@ -485,6 +486,7 @@ header {
   height: 596px;
   width: 100%;
   max-width : 656px;
+  padding-top: 64px;
 }
 
 .titulo-formulario {
